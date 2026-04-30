@@ -1,0 +1,9 @@
+build/
+build-*/
+.cache/
+.vscode/
+*.geode
+*.dll
+*.pdb
+*.so
+*.dylib

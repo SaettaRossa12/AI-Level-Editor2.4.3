@@ -1,0 +1,30 @@
+{
+  "geode": "v5.6.1",
+  "gd": {
+    "win": "2.2081"
+  },
+  "id": "winza.levelscribe-ai",
+  "name": "LevelScribe AI",
+  "version": "v0.1.0",
+  "developer": "winza",
+  "description": "Create Geometry Dash editor layouts from scripts and assisted natural-language prompts.",
+  "resources": {
+    "sprites": [
+      "resources/*.png"
+    ]
+  },
+  "settings": {
+    "server-url": {
+      "name": "Server URL",
+      "description": "Backend endpoint used for entitlement, usage and generation requests.",
+      "type": "string",
+      "default": "https://api.example.com"
+    },
+    "show-tutorial-on-start": {
+      "name": "Show Tutorial on Start",
+      "description": "Show the introductory tutorial the next time the panel opens.",
+      "type": "bool",
+      "default": true
+    }
+  }
+}
