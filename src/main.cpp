@@ -33,7 +33,7 @@ protected:
             return false;
         }
 
-        this->setTitle("LevelScribe AI Tutorial");
+        this->setTitle("AI-Level-Editor Tutorial");
 
         auto text =
             "Write one command per line, then generate the layout in the editor.\n\n"
@@ -157,7 +157,7 @@ protected:
         }
 
         m_editorUI = editorUI;
-        this->setTitle("LevelScribe AI");
+        this->setTitle("AI-Level-Editor");
 
         auto integrity = collectIntegrityReport();
         if (integrity.suspicious) {

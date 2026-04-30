@@ -1,6 +1,6 @@
-# LevelScribe AI
+# AI-Level-Editor
 
-LevelScribe AI is a Geode mod concept for Geometry Dash that helps creators generate editor layouts from an English script. It also defines a paid natural-language prompt flow with a monthly usage limit that must be enforced by a server.
+AI-Level-Editor is a Geode mod concept for Geometry Dash that helps creators generate editor layouts from an English script. It also defines a paid natural-language prompt flow with a monthly usage limit that must be enforced by a server.
 
 ## Scope
 

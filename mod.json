@@ -4,7 +4,7 @@
     "win": "2.2081"
   },
   "id": "winza.levelscribe-ai",
-  "name": "LevelScribe AI",
+  "name": "AI-Level-Editor",
   "version": "v0.1.0",
   "developer": "winza",
   "description": "Create Geometry Dash editor layouts from scripts and assisted natural-language prompts.",
