@@ -9,6 +9,8 @@ AI-Level-Editor lets AI create your Geometry Dash level. Learn the script system
 - Script parser that turns commands into level object placements.
 - Natural-language prompt panel, limited to 3 uses per calendar month.
 - Client integrity signals and server-side entitlement checks for a paid 5 EUR product.
+- Purchase link and license-key settings for the paid flow.
+- The configured owner Geometry Dash account gets unlimited natural prompts.
 
 ## Important Security Note
 
@@ -20,7 +22,7 @@ Do not enforce payment, prompt limits, or bans only inside the mod. A user can p
 - 2-week temporary bans,
 - AI provider API keys.
 
-The included C++ code is an MVP client scaffold. The backend contract is documented in `docs/backend-contract.md`.
+The included C++ code is an MVP client scaffold. The backend contract is documented in `docs/backend-contract.md`. Set the `purchase-url` mod setting to your Ko-fi, Gumroad, Lemon Squeezy, Stripe payment link, or another page where users can pay the 5 EUR license.
 
 ## Script Example
 

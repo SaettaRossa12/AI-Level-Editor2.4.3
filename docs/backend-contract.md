@@ -7,6 +7,9 @@ This mod should call a backend for every paid or abuse-sensitive action.
 - Price: 5 EUR.
 - The server stores purchase entitlement by user account or license key.
 - The client never stores the AI provider key.
+- The mod setting `purchase-url` should point to the page where users pay you.
+- The mod setting `license-key` is only a placeholder until a backend verifies real purchases.
+- The mod setting `owner-gd-username` identifies the creator account that receives unlimited natural prompts.
 
 ## Natural Prompt Limit
 

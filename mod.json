@@ -5,7 +5,7 @@
   },
   "id": "winza.levelscribe-ai",
   "name": "AI-Level-Editor",
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "developer": "winza",
   "description": "Let AI create your Geometry Dash level. Learn the script system with the simple in-editor tutorial included with the mod, or use a regular English prompt three times per month. Attempts to modify the mod code may result in a two-week ban.",
   "resources": {
@@ -19,6 +19,24 @@
       "description": "Backend endpoint used for entitlement, usage and generation requests.",
       "type": "string",
       "default": "https://api.example.com"
+    },
+    "purchase-url": {
+      "name": "Purchase URL",
+      "description": "Payment page for the 5 EUR license.",
+      "type": "string",
+      "default": "https://github.com/SaettaRossa12/AI-Level-Editor2.4.3/releases"
+    },
+    "license-key": {
+      "name": "License Key",
+      "description": "License key received after purchase. Server validation is required for production.",
+      "type": "string",
+      "default": ""
+    },
+    "owner-gd-username": {
+      "name": "Owner GD Username",
+      "description": "Geometry Dash account with unlimited natural prompts.",
+      "type": "string",
+      "default": "SaettaRossa12"
     },
     "show-tutorial-on-start": {
       "name": "Show Tutorial on Start",
