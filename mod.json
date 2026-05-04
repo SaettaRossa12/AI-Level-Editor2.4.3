@@ -5,7 +5,7 @@
   },
   "id": "winza.levelscribe-ai",
   "name": "AI-Level-Editor",
-  "version": "v0.1.1",
+  "version": "v0.1.2",
   "developer": "winza",
   "description": "Let AI create your Geometry Dash level. Learn the script system with the simple in-editor tutorial included with the mod, or use a regular English prompt three times per month. Attempts to modify the mod code may result in a two-week ban.",
   "resources": {
@@ -24,7 +24,7 @@
       "name": "Purchase URL",
       "description": "Payment page for the 5 EUR license.",
       "type": "string",
-      "default": "https://github.com/SaettaRossa12/AI-Level-Editor2.4.3/releases"
+      "default": "https://gumroad.com/l/czxfi"
     },
     "license-key": {
       "name": "License Key",

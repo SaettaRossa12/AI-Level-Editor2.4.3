@@ -22,7 +22,7 @@ Do not enforce payment, prompt limits, or bans only inside the mod. A user can p
 - 2-week temporary bans,
 - AI provider API keys.
 
-The included C++ code is an MVP client scaffold. The backend contract is documented in `docs/backend-contract.md`. Set the `purchase-url` mod setting to your Ko-fi, Gumroad, Lemon Squeezy, Stripe payment link, or another page where users can pay the 5 EUR license.
+The included C++ code is an MVP client scaffold. The backend contract is documented in `docs/backend-contract.md`. The default `purchase-url` points to the Gumroad product page for the 5 EUR license.
 
 ## Script Example
 
