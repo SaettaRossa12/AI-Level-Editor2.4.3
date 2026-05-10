@@ -5,9 +5,9 @@
   },
   "id": "winza.levelscribe-ai",
   "name": "AI-Level-Editor",
-  "version": "v0.1.2",
+  "version": "v0.1.3",
   "developer": "winza",
-  "description": "Let AI create your Geometry Dash level. Learn the script system with the simple in-editor tutorial included with the mod, or use a regular English prompt three times per month. Attempts to modify the mod code may result in a two-week ban.",
+  "description": "Let AI create your Geometry Dash level. Early version: bugs may happen. If you have issues, send a screenshot to uwhahshe@gmail.com.",
   "resources": {
     "sprites": [
       "resources/*.png"
@@ -26,9 +26,15 @@
       "type": "string",
       "default": "https://gumroad.com/l/czxfi"
     },
+    "gumroad-seller": {
+      "name": "Gumroad Seller",
+      "description": "Gumroad account that receives payments.",
+      "type": "string",
+      "default": "Fra.grasso77"
+    },
     "license-key": {
       "name": "License Key",
-      "description": "License key received after purchase. Server validation is required for production.",
+      "description": "Gumroad license key received after purchase. Enter it once; the mod keeps it saved.",
       "type": "string",
       "default": ""
     },
@@ -36,7 +42,19 @@
       "name": "Owner GD Username",
       "description": "Geometry Dash account with unlimited natural prompts.",
       "type": "string",
-      "default": "SaettaRossa12"
+      "default": "saettarossa2503"
+    },
+    "owner-email": {
+      "name": "Owner Email",
+      "description": "Owner/support email address.",
+      "type": "string",
+      "default": "uwhahshe@gmail.com"
+    },
+    "support-email": {
+      "name": "Support Email",
+      "description": "Email users should contact with screenshots when bugs happen.",
+      "type": "string",
+      "default": "uwhahshe@gmail.com"
     },
     "show-tutorial-on-start": {
       "name": "Show Tutorial on Start",

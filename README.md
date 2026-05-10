@@ -1,6 +1,12 @@
 # AI-Level-Editor
 
-AI-Level-Editor lets AI create your Geometry Dash level. Learn the script system with the simple in-editor tutorial included with the mod, or use a regular English prompt three times per month. Attempts to modify the mod code may result in a two-week ban.
+AI-Level-Editor lets AI create your Geometry Dash level. Learn the script system with the simple in-editor tutorial included with the mod, or use a regular English prompt three times per month.
+
+This is an early version and may contain bugs. If you have issues, send a screenshot to `uwhahshe@gmail.com`.
+
+## Distribution
+
+This project is distributed through Gumroad only. Do not attach `.geode` builds to public GitHub releases if the paid download should remain gated.
 
 ## Scope
 
@@ -11,6 +17,8 @@ AI-Level-Editor lets AI create your Geometry Dash level. Learn the script system
 - Client integrity signals and server-side entitlement checks for a paid 5 EUR product.
 - Purchase link and license-key settings for the paid flow.
 - The configured owner Geometry Dash account gets unlimited natural prompts.
+- The owner Geometry Dash account is `saettarossa2503`.
+- Gumroad payments should go through seller account `Fra.grasso77`.
 
 ## Important Security Note
 

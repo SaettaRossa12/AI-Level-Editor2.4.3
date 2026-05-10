@@ -58,6 +58,10 @@ std::string purchaseUrl() {
     return Mod::get()->getSettingValue<std::string>("purchase-url");
 }
 
+std::string supportEmail() {
+    return Mod::get()->getSettingValue<std::string>("support-email");
+}
+
 class TutorialPopup : public Popup {
 protected:
     bool init() {
@@ -75,7 +79,8 @@ protected:
             "orb yellow x y\n"
             "portal ship x y\n"
             "section x y wave medium\n\n"
-            "Natural prompt mode is a paid assistant feature with 3 uses per month.";
+            "Natural prompt mode is a paid assistant feature with 3 uses per month.\n"
+            "This early version may contain bugs. Send screenshots to support if needed.";
 
         auto label = CCLabelBMFont::create(text, "bigFont.fnt");
         label->setScale(0.35f);
@@ -142,7 +147,10 @@ protected:
         if (!canUsePremiumFeatures()) {
             createQuickPopup(
                 "Purchase Required",
-                "Natural Prompt requires a 5 EUR license. Open the purchase page now?",
+                fmt::format(
+                    "Natural Prompt requires a 5 EUR license. If you already bought it, enter your Gumroad license key in the mod settings; it stays saved. For bugs, send a screenshot to {}. Open the purchase page now?",
+                    supportEmail()
+                ),
                 "Cancel",
                 "Open",
                 [](FLAlertLayer*, bool btn2) {

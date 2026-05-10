@@ -10,6 +10,9 @@ This mod should call a backend for every paid or abuse-sensitive action.
 - The mod setting `purchase-url` should point to the Gumroad page where users pay you.
 - The mod setting `license-key` is only a placeholder until a backend verifies real purchases.
 - The mod setting `owner-gd-username` identifies the creator account that receives unlimited natural prompts.
+- The configured owner account is `saettarossa2503`.
+- The support email is `uwhahshe@gmail.com`.
+- Gumroad payments should be configured on the seller account `Fra.grasso77`.
 
 ## Natural Prompt Limit
 
