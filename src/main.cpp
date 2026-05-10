@@ -38,12 +38,19 @@ std::string lowerCopy(std::string value) {
 }
 
 bool isOwnerAccount() {
+    if (Mod::get()->getSettingValue<bool>("owner-mode")) {
+        return true;
+    }
+
     auto owner = lowerCopy(Mod::get()->getSettingValue<std::string>("owner-gd-username"));
+    auto ownerEmail = lowerCopy(Mod::get()->getSettingValue<std::string>("owner-email"));
     auto manager = GJAccountManager::sharedState();
-    if (!manager || owner.empty()) {
+    if (!manager) {
         return false;
     }
-    return lowerCopy(std::string(manager->m_username)) == owner;
+
+    auto username = lowerCopy(std::string(manager->m_username));
+    return (!owner.empty() && username == owner) || (!ownerEmail.empty() && username == ownerEmail);
 }
 
 bool hasLocalLicenseKey() {
@@ -148,7 +155,7 @@ protected:
             createQuickPopup(
                 "Purchase Required",
                 fmt::format(
-                    "Natural Prompt requires a 5 EUR license. If you already bought it, enter your Gumroad license key in the mod settings; it stays saved. For bugs, send a screenshot to {}. Open the purchase page now?",
+                    "Natural Prompt requires a 6 EUR license. If you already bought it, enter your Gumroad license key in the mod settings; it stays saved. For bugs, send a screenshot to {}. Open the purchase page now?",
                     supportEmail()
                 ),
                 "Cancel",

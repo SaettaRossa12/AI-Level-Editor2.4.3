@@ -4,7 +4,7 @@ This mod should call a backend for every paid or abuse-sensitive action.
 
 ## Product
 
-- Price: 5 EUR.
+- Price: 6 EUR.
 - The server stores purchase entitlement by user account or license key.
 - The client never stores the AI provider key.
 - The mod setting `purchase-url` should point to the Gumroad page where users pay you.

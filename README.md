@@ -14,7 +14,7 @@ This project is distributed through Gumroad only. Do not attach `.geode` builds 
 - Intro tutorial shown on first launch and available again from the panel.
 - Script parser that turns commands into level object placements.
 - Natural-language prompt panel, limited to 3 uses per calendar month.
-- Client integrity signals and server-side entitlement checks for a paid 5 EUR product.
+- Client integrity signals and server-side entitlement checks for a paid 6 EUR product.
 - Purchase link and license-key settings for the paid flow.
 - The configured owner Geometry Dash account gets unlimited natural prompts.
 - The owner Geometry Dash account is `saettarossa2503`.
@@ -30,7 +30,7 @@ Do not enforce payment, prompt limits, or bans only inside the mod. A user can p
 - 2-week temporary bans,
 - AI provider API keys.
 
-The included C++ code is an MVP client scaffold. The backend contract is documented in `docs/backend-contract.md`. The default `purchase-url` points to the Gumroad product page for the 5 EUR license.
+The included C++ code is an MVP client scaffold. The backend contract is documented in `docs/backend-contract.md`. The default `purchase-url` points to the Gumroad product page for the 6 EUR license.
 
 ## Script Example
 

@@ -5,7 +5,7 @@
   },
   "id": "winza.levelscribe-ai",
   "name": "AI-Level-Editor",
-  "version": "v0.1.3",
+  "version": "v0.1.4",
   "developer": "winza",
   "description": "Let AI create your Geometry Dash level. Early version: bugs may happen. If you have issues, send a screenshot to uwhahshe@gmail.com.",
   "resources": {
@@ -22,7 +22,7 @@
     },
     "purchase-url": {
       "name": "Purchase URL",
-      "description": "Payment page for the 5 EUR license.",
+      "description": "Payment page for the 6 EUR license.",
       "type": "string",
       "default": "https://gumroad.com/l/czxfi"
     },
@@ -37,6 +37,12 @@
       "description": "Gumroad license key received after purchase. Enter it once; the mod keeps it saved.",
       "type": "string",
       "default": ""
+    },
+    "owner-mode": {
+      "name": "Owner Mode",
+      "description": "Unlimited natural prompts for the creator build.",
+      "type": "bool",
+      "default": true
     },
     "owner-gd-username": {
       "name": "Owner GD Username",
